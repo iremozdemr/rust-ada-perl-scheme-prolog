@@ -1,12 +1,12 @@
-# Rust Calculator Interpreter
+# Rust Simple Calculator
 
-This is a simple calculator interpreter implemented in Rust. It supports:
+This is a basic calculator program written in Rust. It supports the following operations:
 
 - Arithmetic operations: `+`, `-`, `*`, `/`
 - Variable assignments: `x = 5`
 - Variable usage: `x + 2`
-- Parentheses: `(x + 3) * 2`
-- Unary minus: `-x`
+- Parentheses
+- Unary minus:
 - Error handling (e.g., division by zero, undefined variable)
 
 ## How to Run

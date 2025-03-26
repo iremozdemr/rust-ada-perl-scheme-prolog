@@ -1,6 +1,6 @@
 # Perl Simple Calculator
 
-This is a simple calculator interpreter implemented in Perl. It supports:
+This is a basic calculator program written in Ada. It supports the following operations:
 
 - Basic arithmetic operations: `+`, `-`, `*`, `/`
 - Unary minus
