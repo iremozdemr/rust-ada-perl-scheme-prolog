@@ -37,6 +37,6 @@ Inside each, you'll find a `README.md` and the relevant interpreter source code.
 ---
 
 ## **Author**
-- **Name:** [İrem Özdemir]
-- **Email:** [irem.ozdemir@etu.edu.tr]
-- **Course:** [BİL395]
+- **Name:** İrem Özdemir
+- **Email:** irem.ozdemir@etu.edu.tr
+- **Course:** BİL395
