@@ -1,4 +1,4 @@
-# Perl Calculator Interpreter
+# Perl Simple Calculator
 
 This is a simple calculator interpreter implemented in Perl. It supports:
 
