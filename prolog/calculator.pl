@@ -9,23 +9,7 @@ process_input(Input, Result) :-
     eval(Term, Result).
 
 calculator :-
-    write('Hesaplamak istediğiniz ifadeyi girin: '),
+    write('please enter the expression: '),
     read_line_to_string(user_input, Input),
     process_input(Input, Result),
-    write('Sonuç: '), write(Result), nl.
-
-% Örnek kullanım
-% ?- calculator.
-% Hesaplamak istediğiniz ifadeyi girin: 2+3.
-% Sonuç: 5
-% true.
-
-% ?- calculator.
-% Hesaplamak istediğiniz ifadeyi girin: 10*5.
-% Sonuç: 50
-% true.
-
-% ?- calculator.
-% Hesaplamak istediğiniz ifadeyi girin: 10/2.
-% Sonuç: 5.0
-% true.
+    write('result: '), write(Result), nl.
