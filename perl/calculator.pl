@@ -22,7 +22,7 @@ sub evaluate {
         if (exists $variables{$var}) {
             return $variables{$var};
         } else {
-            print "Hata: '$var' değişkeni tanımlı değil.\n";
+            print "error: variable '$var' is undefined\n";
             return undef;
         }
     } elsif ($expression =~ /^\s*(-?\d+(\.\d+)?)\s*$/) {
@@ -43,19 +43,19 @@ sub evaluate {
                 return $left_val * $right_val;
             } elsif ($op eq '/') {
                 if ($right_val == 0) {
-                    print "Hata: Sıfıra bölme.\n";
+                    print "error: divison by zero\n";
                     return undef;
                 }
                 return $left_val / $right_val;
             } else {
-                print "Hata: Geçersiz operatör '$op'.\n";
+                print "error: invalid operator '$op'.\n";
                 return undef;
             }
         } else {
             return undef;
         }
     } else {
-        print "Hata: Geçersiz ifade '$expression'.\n";
+        print "error: invalid expression '$expression'.\n";
         return undef;
     }
 }
