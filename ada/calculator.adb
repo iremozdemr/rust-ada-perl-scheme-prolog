@@ -5,13 +5,13 @@ procedure Simple_Calculator is
    A, B, Result : Float;
    Operator     : Character;
 begin
-   Put("Birinci sayıyı girin: ");
+   Put("enter the first number: ");
    Get(A);
 
-   Put("İkinci sayıyı girin: ");
+   Put("enter the second number: ");
    Get(B);
 
-   Put("İşlem türünü girin (+, -, *, /): ");
+   Put("enter the operator (+, -, *, /): ");
    Get(Operator);
 
    if Operator = '+' then
@@ -22,17 +22,17 @@ begin
       Result := A * B;
    elsif Operator = '/' then
       if B = 0.0 then
-         Put_Line("Hata: Sıfıra bölme yapılamaz.");
+         Put_Line("error: division by zero");
          return;
       else
          Result := A / B;
       end if;
    else
-      Put_Line("Geçersiz işlem!");
+      Put_Line("error");
       return;
    end if;
 
-   Put("Sonuç: ");
+   Put("result: ");
    Put(Result, Fore => 1, Aft => 2, Exp => 0);
    New_Line;
 end Simple_Calculator;

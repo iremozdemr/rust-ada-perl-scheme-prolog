@@ -11,10 +11,7 @@ This is a simple calculator interpreter implemented in Rust. It supports:
 
 ## How to Run
 
-1. Install rust:
-    ```bash
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    ```
+1. Install rust (https://rustup.rs)
 
 2. Compile the Rust file:
    ```bash
