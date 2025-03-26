@@ -11,17 +11,22 @@ This is a simple calculator interpreter implemented in Rust. It supports:
 
 ## How to Run
 
-1. Compile the Rust file:
+1. Install rust:
+    ```bash
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    ```
+
+2. Compile the Rust file:
    ```bash
    rustc calculator.rs -o out
    ```
 
-2. Run the program:
+3. Run the program:
    ```bash
    ./out
    ```
 
-3. Type expressions such as:
+4. Type expressions such as:
    ```
    x = 5
    x + 2
@@ -33,4 +38,4 @@ This is a simple calculator interpreter implemented in Rust. It supports:
    (7*6)-2+3
    ```
 
-4. Type `exit` to quit the program.
+5. Type `exit` to quit the program.
